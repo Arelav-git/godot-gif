@@ -6,7 +6,7 @@ LLGif89aDecoder низкоуровневый инструмент,декодир
 
 сразу начнём с примера воспроизведения gif,добавьте Node2D в сцену и прикрепите следующий скрипт
 
-```
+```gd
 #быстрый старт: воспроизведение гиф с помощью LLGif89aDecoder (godot 4.5.1+)
 extends Node2D
 
@@ -104,7 +104,7 @@ thread_mode : int = 1
 ниже - поля элементов массивов  
 
 пример обращения к первому полю ["Image Descriptor"]["Image Separator"]["Packed Field"]["Size of Local Color Table"]  
-```
+```gd
 func _ready() -> void:
 	var gif_data : Dictionary[String,Variant] = LLGif89aDecoder.read_gif_from_path("путь к гиф.gif")
 	if gif_data["error"].size() > 0:
@@ -154,7 +154,7 @@ Installation:
 2. Done.  
 
 Let's start right away with an example of playing a gif. Add a Node2D to the scene and attach the following script  
-```
+```gd
 #Quick start: playing gif with LLGif89aDecoder (godot 4.5.1+)
 extends Node2D
 
@@ -252,7 +252,7 @@ These fields are always available provided that ["error"] is empty
 Below are the fields of the array elements  
 
 example of accessing the first field ["Image Descriptor"]["Image Separator"]["Packed Field"]["Size of Local Color Table"]  
-```
+```gd
 func _ready() -> void:
 	var gif_data : Dictionary[String,Variant] = LLGif89aDecoder.read_gif_from_path("путь к гиф.gif")
 	if gif_data["error"].size() > 0:
