@@ -174,7 +174,7 @@ func _ready() -> void:
 	#check for errors
 	if gif_data["error"].size() > 0:
 		return
-	#conert Array[Image] to Array[ImageTexture]
+	#convert Array[Image] to Array[ImageTexture]
 	for image in gif_data["image"]:
 		gif_image.push_back(ImageTexture.create_from_image(image))
 	
