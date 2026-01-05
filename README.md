@@ -170,7 +170,7 @@ var time : float = 0.0
 var full_time : float = 0.0
 
 func _ready() -> void:
-	var gif_data : Dictionary[String,Variant] = LLGif89aDecoder.read_gif_from_path("путь к гиф.gif")
+	var gif_data : Dictionary[String,Variant] = LLGif89aDecoder.read_gif_from_path("path to gif.gif")
 	#check for errors
 	if gif_data["error"].size() > 0:
 		return
