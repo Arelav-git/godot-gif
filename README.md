@@ -173,6 +173,14 @@ var [Code_streams](https://www.matthewflickinger.com/lab/whatsinagif/lzw_image_d
 var [Tables](https://www.matthewflickinger.com/lab/whatsinagif/lzw_image_data.asp) : $${\color{green}\text{Array[Array]}}$$ = []    
 var [Units](https://www.matthewflickinger.com/lab/whatsinagif/lzw_image_data.asp#:~:text=as%20a%20new%20%22-,code%20unit,-%22.%20A%20code%20unit) : $${\color{green}\text{int}}$$ = 0  
 
+
+
+
+
+
+
+
+
 LLGif89aDecoder is a low-level tool that decodes all fields of GIF89a format files into Godot native structures.  
 
 Installation:  
