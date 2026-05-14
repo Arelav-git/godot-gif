@@ -76,7 +76,7 @@ func _draw() -> void:
 		if local_time < 0.0 : break
 ```
 
-класс GifPlayer - предназначен для простого вопроизведения gif  
+класс [GifPlayer](#gifplayer) - предназначен для простого вопроизведения gif  
 
 методы:  
 
@@ -259,7 +259,7 @@ func _draw() -> void:
 ```
 
 
-Class GifPlayer - designed for simple gif playback.
+Class GifPlayer - designed for simple gif playback. <a id="gifplayer"></a>
 
 Methods:  
 
